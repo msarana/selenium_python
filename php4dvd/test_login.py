@@ -5,7 +5,7 @@ import unittest
 class Untitled(unittest.TestCase):
     def setUp(self):
 
-        self.driver = webdriver.Ie()
+        self.driver = webdriver.Firefox()
         self.driver.implicitly_wait(30)
         self.base_url = "http://localhost/"
         self.verificationErrors = []
